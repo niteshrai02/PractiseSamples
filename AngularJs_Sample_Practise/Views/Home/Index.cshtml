@@ -3,12 +3,16 @@
 }
 <script src="~/Scripts/Angular/Controller/HomeController.js"></script>
 <script src="~/Scripts/Angular/Service/HomeService.js"></script>
+<script src="~/Scripts/Angular/Filter/Filter.js"></script>
 
 <div class="row" ng-controller="HomeController">
 
     <div class="row">
-        <div class="col-sm-6">
-            {{AppName}}
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="jumbotron">
+                {{AppName}}
+            </div>
         </div>
     </div>
     <div class="col-sm-4">
@@ -26,6 +30,7 @@
     <div class="row">
         <div class="col-sm-4">
             {{result}}
+            {{result | oddeven}}
         </div>
     </div>
 </div>

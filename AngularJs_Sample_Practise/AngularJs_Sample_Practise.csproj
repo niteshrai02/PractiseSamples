@@ -215,6 +215,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\Angular\Controller\HomeController.js" />
+    <Content Include="Scripts\Angular\Filter\Filter.js" />
     <Content Include="Scripts\Angular\Lib\angular.min.js" />
     <Content Include="Scripts\Angular\Module\Module.js" />
     <Content Include="Scripts\Angular\Service\HomeService.js" />
@@ -272,7 +273,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\Angular\Filter\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
