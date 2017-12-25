@@ -4,6 +4,7 @@
 <script src="~/Scripts/Angular/Controller/HomeController.js"></script>
 <script src="~/Scripts/Angular/Service/HomeService.js"></script>
 <script src="~/Scripts/Angular/Filter/Filter.js"></script>
+<script src="~/Scripts/Angular/Directive/CustomDirective.js"></script>
 
 <div class="row" ng-controller="HomeController">
 
@@ -31,6 +32,14 @@
         <div class="col-sm-4">
             {{result}}
             {{result | oddeven}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            
+            <hello ng-transclude>Hello
+            <p>Hello Transclude</p>
+            </hello>
         </div>
     </div>
 </div>
