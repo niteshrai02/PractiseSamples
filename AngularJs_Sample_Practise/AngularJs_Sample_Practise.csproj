@@ -214,6 +214,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\Angular\Constant\Constant.js" />
     <Content Include="Scripts\Angular\Controller\HomeController.js" />
     <Content Include="Scripts\Angular\Directive\CustomDirective.js" />
     <Content Include="Scripts\Angular\Filter\Filter.js" />
