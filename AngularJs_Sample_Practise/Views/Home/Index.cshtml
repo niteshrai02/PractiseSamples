@@ -12,7 +12,7 @@
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
             <div class="jumbotron">
-                {{AppName}}
+                {{constantName}}
             </div>
         </div>
     </div>
@@ -36,10 +36,17 @@
     </div>
     <div class="row">
         <div class="col-sm-2">
+            <div ng-repeat="friend in friends">
+                <hello friend ="friend">
+                    
+                    <p>Hello Transclude</p>
+                </hello>
+            </div>
             
-            <hello ng-transclude>Hello
-            <p>Hello Transclude</p>
-            </hello>
+        </div>
+        <div class="col-sm-4" ng-controller="ScopeLessController as less">
+            <h3>{{less.scopeless}}</h3>
+            <input type="button" ng-click="less.HelloScopeless()" value="Scopeless" />
         </div>
     </div>
 </div>
