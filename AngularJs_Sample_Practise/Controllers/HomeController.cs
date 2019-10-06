@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace AngularJs_Sample_Practise.Controllers
-{
+{    
     public class HomeController : Controller
     {
         public ActionResult Index()

@@ -19,6 +19,11 @@ app.controller("HomeController", function ($scope, HomeService, HomeFactory, glo
 
     $scope.AppName = globalSetting.appname;
     $scope.constantName = constant.applicationName;
+    $scope.check = true;
+
+    $scope.CheckBox = function (val) {
+        var value = val;
+    }
 
 });
 
